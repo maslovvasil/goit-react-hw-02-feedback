@@ -1,0 +1,20 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.statisticsItem {
+  padding-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.statisticsItem::first-letter {
+  text-transform: uppercase;
+}
